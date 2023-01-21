@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#search {
+  width: 50%;
+  height: 63px;
+  font-size: 80px;
+  text-align: center;
+  background-color: #c96567;
+  border: 2px solid #fa2e2e;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: rgb(14, 13, 13);
+  font-family: "Brush Script MT", cursive;
+}
+
+.ss {
+  display: flex;
+  justify-content: center;
+  background-color: #f3b5b2;
+  width: 100%;
+}
+
+.list {
+  width: 100%;
+  background-color: #f7c99d;
+  height: 90vh;
+  overflow: auto;
+}
+
+.list li {
+  display: block;
+  height: 50px;
+  list-style-type: none;
+  background-color: #facb31;
+  margin: 20px 50px;
+  text-align: center;
+  border: 1px solid rgb(19, 18, 18);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
